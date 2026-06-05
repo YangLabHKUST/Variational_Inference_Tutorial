@@ -10,6 +10,7 @@ __pycache__/
 
 results/
 datasets/
+*.run.log
 
 .DS_Store
 Thumbs.db
