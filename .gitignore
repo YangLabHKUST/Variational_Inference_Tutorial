@@ -9,8 +9,16 @@ __pycache__/
 .ipynb_checkpoints/
 
 results/
+data/
 datasets/
 *.run.log
+*.log
+*.pid
+*.h5
+*.h5ad
+*.npy
+*.npz
+*.csv
 
 .DS_Store
 Thumbs.db

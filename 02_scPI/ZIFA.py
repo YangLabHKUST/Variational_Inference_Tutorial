@@ -651,7 +651,7 @@ import os
 import time
 import math
 import warnings
-from typing import Any
+from typing import Any, Dict, Optional
 warnings.filterwarnings('ignore')
 
 
@@ -1051,7 +1051,7 @@ class ZIFA:
         method: str = "classic",
         inference: str = "amortized",
         singleSigma: bool = False,
-        n_blocks: int | None = None,
+        n_blocks: Optional[int] = None,
         p0_thresh: float = 0.95,
         threshold: float = float("-inf"),
         loss_threshold: float = float("-inf"),
@@ -1082,8 +1082,8 @@ class ZIFA:
         self.max_epochs = max_epochs
         self.act_nng_exp = act_nng_exp
         self.eps = eps
-        self.result: dict[str, Any] | None = None
-        self.result_test: dict[str, Any] | None = None
+        self.result: Optional[Dict[str, Any]] = None
+        self.result_test: Optional[Dict[str, Any]] = None
 
     def fit(self, Y, Y_test=None) -> "ZIFA":
         if self.method == "classic":

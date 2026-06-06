@@ -9,7 +9,7 @@ from pyro.optim import Adam
 import os
 import time
 import warnings
-from typing import Any
+from typing import Any, Dict, Optional
 warnings.filterwarnings('ignore')
 
 class Encoder(nn.Module):
@@ -308,8 +308,8 @@ class FA:
         self.non_linear = non_linear
         self.eval_train = eval_train
         self.max_epochs = max_epochs
-        self.result: dict[str, Any] | None = None
-        self.result_test: dict[str, Any] | None = None
+        self.result: Optional[Dict[str, Any]] = None
+        self.result_test: Optional[Dict[str, Any]] = None
 
     def fit(self, Y, Y_test=None) -> "FA":
         self.result, self.result_test = _fit_model(
