@@ -2,7 +2,7 @@
 
 Demonstration code and notebooks for the paper **"A Tutorial on Variational Inference for Single-Cell Genomics"**.
 
-Reproducing simulation results, , and temporal single-cell analyses used in the tutorial.
+Reproducing simulation results, single-cell probabilistic inference examples, and temporal single-cell analyses used in the tutorial.
 
 
 ## Repository structure
