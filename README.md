@@ -1,4 +1,4 @@
-# A Tutorial on Variational Inference for Single-Cell Genomics
+# Variational Inference Methods for Single-Cell Genomics
 
 Demonstration code and notebooks for the paper **Variational Inference Methods for Single-Cell Genomics**.
 
