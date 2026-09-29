@@ -62,3 +62,16 @@ This repository reproduces the simulations, single-cell probabilistic inference 
 1. Install the Python dependencies used by the notebooks you plan to run (`numpy`, `scipy`, `pandas`, `matplotlib`, and for Pyro-based sections also `torch`, `pyro-ppl`; TemporalGP / scPI notebooks additionally use `anndata`, `h5py`, and `scikit-learn` as needed).
 2. Place required external datasets under the paths noted above.
 3. Open and run the notebooks in order within each folder.
+
+## Reference
+
+If you find any of the source code in this repository useful for your work, please consider to cite:
+
+> Variational inference methods for single-cell genomics.
+> Baichen Yu, Ziyue Tan, He Chu, and Can Yang.
+> *Statistical Learning and Data Science*, 2026.
+> DOI: https://doi.org/10.1016/j.slads.2026.100032.
+
+## Contact
+
+Please feel free to contact [Baichen Yu](mailto:baichen.yu@stu.pku.edu.cn) or [Prof. Can Yang](mailto:macyang@ust.hk) if any inquiries.
